@@ -1,4 +1,4 @@
-module github.com/OffchainLabs/go-ethereum
+module github.com/pedro-seedcx/go-ethereum-arbitrum
 
 go 1.17
 
