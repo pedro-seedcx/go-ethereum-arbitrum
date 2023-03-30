@@ -30,12 +30,12 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/accounts"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common/hexutil"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common/math"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/core/types"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/crypto"
 )
 
 var typedDataReferenceTypeRegexp = regexp.MustCompile(`^[A-Z](\w*)(\[\])?$`)

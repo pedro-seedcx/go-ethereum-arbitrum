@@ -18,7 +18,7 @@
 package state
 
 import (
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/core/types"
 )
 
 func (s *StateDB) GetCurrentTxLogs() []*types.Log {

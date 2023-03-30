@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common/mclock"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/event"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/log"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/metrics"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/p2p/enode"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/p2p/enr"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/rlp"
 )
 
 var (

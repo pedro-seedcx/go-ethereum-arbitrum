@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/crypto"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/eth/protocols/snap"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/internal/utesting"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/light"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/trie"
 	"golang.org/x/crypto/sha3"
 )
 

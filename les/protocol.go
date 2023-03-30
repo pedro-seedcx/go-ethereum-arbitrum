@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	vfc "github.com/ethereum/go-ethereum/les/vflux/client"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/core/types"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/crypto"
+	vfc "github.com/pedro-seedcx/go-ethereum-arbitrum/les/vflux/client"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/p2p/enode"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/rlp"
 )
 
 // Constants to match up protocol versions and messages

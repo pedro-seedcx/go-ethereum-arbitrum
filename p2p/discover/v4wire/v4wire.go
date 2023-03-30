@@ -27,11 +27,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common/math"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/crypto"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/p2p/enode"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/p2p/enr"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/rlp"
 )
 
 // RPC packet types

@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/cmd/utils"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/console"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/internal/flags"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/node"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/rpc"
 	"github.com/urfave/cli/v2"
 )
 

@@ -22,13 +22,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/cmd/devp2p/internal/v4test"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/crypto"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/internal/flags"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/p2p/discover"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/p2p/enode"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/params"
 	"github.com/urfave/cli/v2"
 )
 

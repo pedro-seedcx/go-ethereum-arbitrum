@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/metrics"
 )
 
 var (

@@ -28,17 +28,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common/hexutil"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/core"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/core/rawdb"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/core/state"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/core/types"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/internal/ethapi"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/log"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/rlp"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/rpc"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/trie"
 )
 
 // EthereumAPI provides an API to access Ethereum full node-related information.
