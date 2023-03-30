@@ -29,8 +29,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/log"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/rpc"
 	"github.com/rs/cors"
 )
 

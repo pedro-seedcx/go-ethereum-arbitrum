@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/cmd/devp2p/internal/ethtest"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/crypto"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/internal/utesting"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/p2p"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/p2p/rlpx"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/rlp"
 	"github.com/urfave/cli/v2"
 )
 

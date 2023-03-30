@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/accounts/abi"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/accounts/abi/bind"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/accounts/keystore"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/common"
+	"github.com/pedro-seedcx/go-ethereum-arbitrum/core/types"
 )
 
 // Signer is an interface defining the callback when a contract requires a
