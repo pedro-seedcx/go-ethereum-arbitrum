@@ -52,6 +52,7 @@ const (
 	ArbitrumSubmitRetryableTxType = 105
 	ArbitrumInternalTxType        = 106
 	ArbitrumLegacyTxType          = 120
+	OptimismInternalTxType        = 126
 )
 
 // Transaction is an Ethereum transaction.
@@ -415,6 +416,8 @@ func (tx *Transaction) Hash() common.Hash {
 		h = rlpHash(tx.inner)
 	} else if tx.Type() == ArbitrumLegacyTxType {
 		h = tx.inner.(*ArbitrumLegacyTxData).HashOverride
+	} else if tx.Type() == OptimismInternalTxType {
+		h = tx.inner.(*OptimismInternalTx).HashOverride
 	} else {
 		h = prefixedRlpHash(tx.Type(), tx.inner)
 	}

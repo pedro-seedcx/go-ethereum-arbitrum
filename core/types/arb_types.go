@@ -420,6 +420,42 @@ func (d *ArbitrumInternalTx) setSignatureValues(chainID, v, r, s *big.Int) {
 
 }
 
+type OptimismInternalTx struct {
+	HashOverride common.Hash
+	Data         []byte
+}
+
+func (t *OptimismInternalTx) txType() byte {
+	return OptimismInternalTxType
+}
+
+func (t *OptimismInternalTx) copy() TxData {
+	return &OptimismInternalTx{
+		t.HashOverride,
+		common.CopyBytes(t.Data),
+	}
+}
+
+func (t *OptimismInternalTx) chainID() *big.Int      { return bigZero }
+func (t *OptimismInternalTx) accessList() AccessList { return nil }
+func (t *OptimismInternalTx) data() []byte           { return t.Data }
+func (t *OptimismInternalTx) gas() uint64            { return 0 }
+func (t *OptimismInternalTx) gasPrice() *big.Int     { return bigZero }
+func (t *OptimismInternalTx) gasTipCap() *big.Int    { return bigZero }
+func (t *OptimismInternalTx) gasFeeCap() *big.Int    { return bigZero }
+func (t *OptimismInternalTx) value() *big.Int        { return bigZero }
+func (t *OptimismInternalTx) nonce() uint64          { return 0 }
+func (t *OptimismInternalTx) to() *common.Address    { return &ArbosAddress }
+func (t *OptimismInternalTx) isFake() bool           { return true }
+
+func (d *OptimismInternalTx) rawSignatureValues() (v, r, s *big.Int) {
+	return bigZero, bigZero, bigZero
+}
+
+func (d *OptimismInternalTx) setSignatureValues(chainID, v, r, s *big.Int) {
+
+}
+
 type HeaderInfo struct {
 	SendRoot           common.Hash
 	SendCount          uint64

@@ -428,6 +428,14 @@ func (t *Transaction) UnmarshalJSON(input []byte) error {
 			Data:    *dec.Data,
 		}
 
+	case OptimismInternalTxType:
+		if dec.Data == nil {
+			return errors.New("missing required field 'input' in transaction")
+		}
+		inner = &OptimismInternalTx{
+			HashOverride: dec.Hash,
+			Data:         *dec.Data,
+		}
 	case ArbitrumDepositTxType:
 		if dec.ChainID == nil {
 			return errors.New("missing required field 'chainId' in transaction")
